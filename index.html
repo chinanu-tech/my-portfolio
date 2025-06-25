@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome CDN Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div id="header">
+<div class="container">
+ <nav>
+ <h1 class="logo">chinau <span class="logo-dot">.</span></h1>
+   <ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+        <li><a href="#project-section">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" id="menu-bar" onclick="closemenu()"></i>
+   </ul>
+   <i class="fa-solid fa-bars" id="menu-bar" onclick="openmenu()"></i>
+ </nav>
+ <div class="header-text">
+  <p>Software Engineering Student <br>/ web developer</p>
+  <h1>Hi, <br>i'm <span>Chinanu </span>C. Emenem <br> from England</h1>
+ </div>
+</div>
+  </div>
+  <!----ABOUT ME PAGE-->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="/image/_about.png" >
+      </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me </h1>
+          <p>Hi, I'm Chinanu Cynthia Emenem, a passionate web developer based in Manchester, England. I am currently a full-time Software Engineering student at the University of Salford, where I am developing my skills in web application development as well as all the essential areas a software developer should know.
+
+Alongside my studies,  I balance a busy home life as mother , while pursuing my passion for technology  a journey that’s taught me focus, adaptability, and strong time management. My tech journey has been driven by curiosity, persistence, and a deep desire to build useful, user-friendly web applications. I consider myself a fast learner, which helps me adapt quickly and embrace new technologies and concepts.
+
+I enjoy working with HTML, CSS, JavaScript, and Python, and I have built several hands-on projects, including a weather app and a to-do list application. I am continually learning and excited to grow in the tech world.</p>
+   <div class="tab-titles">
+  <p class="links-1" onclick="showTab('skills')">Skills</p>
+  <p class="links-1" onclick="showTab('education')">Education</p>
+</div>
+
+<!-- Content Sections -->
+<div id="skills" class="tab-content hidden">
+  <h3 class="sub-headings">Technical Skills</h3>
+  <ul class="skills-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Responsive Web Design</li>
+    <li>Git & GitHub</li>
+    <li>API Integration</li>
+    <li>Visual Studio Code</li>
+  </ul>
+
+  <h3 class="sub-headings">Soft Skills</h3>
+  <ul class="skills-list">
+    <li>Time Management</li>
+    <li>Problem Solving</li>
+    <li>Self-Motivation</li>
+    <li>Adaptability</li>
+    <li>Attention to Detail</li>
+  </ul>
+</div>
+
+<div id="education" class="tab-content hidden">
+  <h3 class="sub-headings">Formal Education</h3>
+  <p><strong>BSc in Software Engineering</strong><br>
+  University of Salford, Manchester, England<br>
+  <em>2024 – Present</em></p>
+
+  <h3 class="sub-headings">Online Learning</h3>
+  <ul class="education-list">
+    <li>JavaScript for Beginners – Codecademy (2025)</li>
+    <li>Intermediate JavaScript – Codecademy (2025)</li>
+    <li>Interactive and Responsive Website – Codecademy (2025)</li>
+  </ul>
+
+  <p>These courses helped me build practical projects such as a weather app and a to-do list app using HTML, CSS, and JavaScript.</p>
+</div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="project-section">
+  <h2>My Projects</h2>
+
+  <div class="project-gallery">
+    <div class="project-card">
+      <img src="image/project-1.png" alt="Project 1">
+     <div class="layers"> 
+    <h3>weather app</h3>
+      <p>A simple app that lets users check the current weather in any
+         city using real-time weather API data.</p>
+       <a href="https://chinanu-tech.github.io/weather-app/"><i class="fa-solid fa-up-right-from-square"></i></a></div>
+      
+    </div>
+
+    <div class="project-card">
+      <img src="image/project-2.png" alt="Project 2">
+      <div class="layers">
+          <h3>To-Do List App</h3>
+      <p>A responsive to-do list where users can add, delete, and mark tasks as complete  perfect for daily planning.</p>
+      <a href="https://chinanu-tech.github.io/Todo-list-app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    
+    
+    </div>
+  </div>
+ <a href="https://github.com/chinanu-tech" target="_blank" class="btn">
+See more
+</a>
+
+</div>
+<!-----contact-->
+<div id="contact">
+  <div class="container"
+    <div class="row">
+      <div class="contact-left">
+        <h1>Contact me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>chinanu.emenem.tech@gmail.com</p>
+        <p> <i class="fa-solid fa-square-phone-flip"></i>+447464729880</p>
+        <div class="social-icons">
+         
+          <a href="https://www.instagram.com/chinanu_offical/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@chinanu_offical"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.linkedin.com/in/chinanu-emenem-244154359"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="/My%20CV%20Resume.pdf" class="btn btn2" download="Chinanu-CV.pdf">Download CV</a>
+
+      </div>
+      <div class="contact-right"></div>
+      <form name="submit-to-google-sheet" >
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="text" name="email" placeholder="Enter your email" required>
+        <textarea name="message" rows="6" placeholder="enter your message"></textarea>
+        <button type="submit" class="btn btn2"> Submit</button>
+      </form>
+    </div>
+    <span id="msg"></span>
+  </div>
+  <footer>
+  <p>&copy; 2025 Your Chinanu Cynthia Emenem. All rights reserved.</p>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
